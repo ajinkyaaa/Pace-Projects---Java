@@ -1,0 +1,14 @@
+
+Oct 21, 2016 23:40:31.77 NEW SESSION
+Oct 21, 2016 23:40:31.77 [8868:3360:1021/234031:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+Oct 22, 2016 24:27:29.59 [8868:3360:1022/002729:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+
+Oct 30, 2016 06:27:15.39 NEW SESSION
+Oct 30, 2016 06:27:15.39 [1030/062715:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
+Oct 30, 2016 06:27:31.96 [1030/062731:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
+
+Oct 30, 2016 06:28:17.32 NEW SESSION
+Oct 30, 2016 06:28:17.32 [1030/062817:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded
+
+Oct 30, 2016 06:46:25.57 NEW SESSION
+Oct 30, 2016 06:46:25.57 [1030/064625:ERROR:main_dll_loader_win.cc(196)] Could not find exported function RelaunchChromeBrowserWithNewCommandLineIfNeeded

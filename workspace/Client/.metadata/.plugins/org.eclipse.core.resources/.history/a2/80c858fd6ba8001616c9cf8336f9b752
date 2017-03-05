@@ -1,0 +1,40 @@
+public class MyQuickSort{
+	
+	public void QuickSort(int[] arr,int lowerIndex,int higherIndex)
+	{
+	//	int lowerIndex = 0;
+		//int higherIndex = arr.length - 2;
+		int pivotIndex = arr.length - 1;;
+		while(lowerIndex <= higherIndex)
+		{
+			while(arr[lowerIndex] < arr[higherIndex])
+			{
+				lowerIndex++;
+			}
+			
+			if(arr[lowerIndex] > arr[higherIndex])
+			{
+				ExchangeNumbers(arr,lowerIndex,higherIndex);
+				lowerIndex++;
+				higherIndex--;
+			}
+			else{
+				higherIndex--;	
+			}
+			
+			if(lowerIndex >= higherIndex)
+			{
+				ExchangeNumbers(arr,lowerIndex,pivotIndex);
+			}
+		}
+	}
+	
+	public void ExchangeNumbers(int[] arr,int lowerIndex,int higherIndex)
+	{
+		int temp =  arr[lowerIndex];
+		arr[lowerIndex] = arr[higherIndex];
+		arr[higherIndex] = temp;
+		
+				
+	}
+}

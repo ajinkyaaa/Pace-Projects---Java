@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Project- midterm">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="Parrallel_n_Dis-_Midterm-_Assign_4"/>
+        <property name="java-output-path" value="/Project- midterm/build/classes"/>
+    </wb-module>
+</project-modules>

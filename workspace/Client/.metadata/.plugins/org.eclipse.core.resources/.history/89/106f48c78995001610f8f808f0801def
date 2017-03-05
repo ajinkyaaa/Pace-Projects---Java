@@ -1,0 +1,21 @@
+import java.util.Comparator;
+
+public class AreaComparer implements Comparator<Rectangle>
+{
+
+	   public int compare(Rectangle lhs, Rectangle rhs){
+		      Integer AreaLHS = lhs.GetWidth() * lhs.GetLength();
+		      Integer AreaRHS = rhs.GetWidth() * rhs.GetLength();
+		      
+		      if(AreaLHS.compareTo(AreaRHS) == 0)
+		      {
+		    	  Integer PerimeterLHS = 2*(lhs.GetWidth() + lhs.GetLength());
+		    	  Integer PerimeterRHS = 2*(rhs.GetWidth() + rhs.GetLength());
+		    	  
+		    	  return PerimeterLHS.compareTo(PerimeterRHS);
+		      }
+		      return AreaLHS.compareTo(AreaRHS);
+		      
+		   }
+
+}

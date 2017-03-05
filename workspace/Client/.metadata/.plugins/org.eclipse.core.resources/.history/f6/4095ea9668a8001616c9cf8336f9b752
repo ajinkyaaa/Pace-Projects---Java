@@ -1,0 +1,22 @@
+public class MyQuickSort{
+	
+	public void QuickSort(int[] arr)
+	{
+		int lowerIndex = 0;
+		int higherIndex = arr.length - 1;
+		
+		while(arr[lowerIndex] < arr[higherIndex])
+		{
+			
+		}
+	}
+	
+	public void ExchangeNumbers(int[] arr,int lowerIndex,int higherIndex)
+	{
+		int temp =  arr[lowerIndex];
+		arr[lowerIndex] = arr[higherIndex];
+		arr[higherIndex] = temp;
+		
+				
+	}
+}
